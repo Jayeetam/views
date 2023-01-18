@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contactus</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a class="active" href="/">Shop</a></li>
+                <li class="main-header__item"><a href="/admin/add-product">Add Product</a></li>
+                <li class="main-header__item"><a href="/contactus">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form class="product-form" action="/contactus" method="POST">
+            <div class="form-control">
+                <h1>Book Appointment</h1>
+                <label for="title">Name</label>
+                <input type="text" name="title" id="title" requires><br><br>
+                <label for="name">Email</label>
+                <input type="text" name="title" id="title" required><br><br>
+              
+            </div>
+
+            <button type="submit">submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
